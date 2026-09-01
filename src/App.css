@@ -1,0 +1,15 @@
+body { font-family: sans-serif; background-color: #121212; color: #e0e0e0; margin: 0; padding: 0; }
+.app-container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+.header { text-align: center; margin-bottom: 25px; }
+.header h1 { color: #ff6b6b; }
+.filter-tabs { display: flex; justify-content: center; gap: 10px; margin-bottom: 30px; }
+.filter-tabs button { background: #1e1e1e; border: 1px solid #333; color: #fff; padding: 8px 16px; border-radius: 20px; cursor: pointer; }
+.filter-tabs button.active, .filter-tabs button:hover { background: #ff6b6b; border-color: #ff6b6b; }
+.anime-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+.anime-card { background: #1e1e1e; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+.anime-card img { width: 100%; height: 350px; object-fit: cover; }
+.anime-info { padding: 15px; display: flex; flex-direction: column; gap: 8px; }
+.anime-info h3 { margin: 0; color: #fff; }
+.genre { font-size: 0.85rem; color: #aaa; }
+.status-control { margin-top: 10px; display: flex; justify-content: space-between; align-items: center; }
+.status-control select { background: #2c2c2c; color: #fff; border: 1px solid #444; padding: 5px; border-radius: 5px; }
